@@ -25,8 +25,8 @@ class Counter extends Component {
     return(
       <div>
         <h1>Counter:{this.state.count}</h1>
-        <button style={style} onClick={this.sub}className="counter">-</button>
-        <button style={style} onClick={this.add}className="counter">+</button>
+        <button style={style} onClick={this.sub}>-</button>
+        <button style={style} onClick={this.add}>+</button>
       </div>
     )
   }
